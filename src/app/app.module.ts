@@ -9,6 +9,7 @@ import { CadastroComponent } from './cadastro/cadastro.component';
 import { HeaderComponent } from './header/header.component';
 import { MyProjectComponent } from './my-project/my-project.component';
 import { CommunityComponent } from './community/community.component';
+import { CommunityChallengeComponent } from './community-challenge/community-challenge.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CommunityComponent } from './community/community.component';
     CadastroComponent,
     HeaderComponent,
     MyProjectComponent,
-    CommunityComponent
+    CommunityComponent,
+    CommunityChallengeComponent
   ],
   imports: [
     BrowserModule,
