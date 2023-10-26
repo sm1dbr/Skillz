@@ -10,6 +10,8 @@ import { HeaderComponent } from './header/header.component';
 import { MyProjectComponent } from './my-project/my-project.component';
 import { CommunityComponent } from './community/community.component';
 import { CommunityChallengeComponent } from './community-challenge/community-challenge.component';
+import { MyChallengeComponent } from './my-challenge/my-challenge.component';
+import { PlansComponent } from './plans/plans.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { CommunityChallengeComponent } from './community-challenge/community-cha
     HeaderComponent,
     MyProjectComponent,
     CommunityComponent,
-    CommunityChallengeComponent
+    CommunityChallengeComponent,
+    MyChallengeComponent,
+    PlansComponent
   ],
   imports: [
     BrowserModule,
