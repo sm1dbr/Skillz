@@ -12,6 +12,7 @@ import { CommunityComponent } from './community/community.component';
 import { CommunityChallengeComponent } from './community-challenge/community-challenge.component';
 import { MyChallengeComponent } from './my-challenge/my-challenge.component';
 import { PlansComponent } from './plans/plans.component';
+import { UserProfileComponent } from './user-profile/user-profile.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { PlansComponent } from './plans/plans.component';
     CommunityComponent,
     CommunityChallengeComponent,
     MyChallengeComponent,
-    PlansComponent
+    PlansComponent,
+    UserProfileComponent
   ],
   imports: [
     BrowserModule,
